@@ -18,6 +18,8 @@ module.exports = {
     assetModuleFilename: 'assets/images/[hash][ext][query]'
   },
   mode:'development',
+  //Para mapear el codigo
+  devtool:'source-map',
   //Para compilar cuando estoy programando
   //watch:true,
   resolve: {
